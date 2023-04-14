@@ -17,24 +17,42 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
-    <!-- -------------------------------- Grid --------------------------------- -->
-    <div class="grid">
-        <!-- ------------------------------- header -------------------------------- -->
-        <header class="header" data-aos="zoom-out">
-            <div class="header__Logo">
-                <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
+<body class="p-0 mb0 bg-secondary text-white">
+    <div class="container-fluid p-0" data-aos="zoom-out">
+      <header class="row bg-info text-dark">
+        <div class="col-lg-6 col-12">
+          <img src="../imagenes/icono.jpg" alt="logo">
+        </div>
+        <div class="col-lg-6 col-12 d-flex justify-content-end">
+          <nav class="navbar navbar-expand-lg bg-info text-dark">
+            <a class="navbar-brand fs-4" href="../index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active fs-4" aria-current="page" href="./nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" href="./contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" href="./producto.html">PRODUCTO</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-4" href="./presupuesto.html" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    PRESUPUESTO
+                  </a>
+                </li>
+              </ul>
             </div>
-            <nav>
-                <ul class="header__nav">
-                    <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="nosotros.html">NOSOTROS</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                    <li><a href="producto.html">PRODUCTO</a></li>
-                    <li><a href="presupuesto.html">PRESUPUESTO</a></li>
-                </ul>
-            </nav>
-        </header>
+        </div>
+        </nav>
+    </div>
+    </header>
         <!-- -------------------------------- main --------------------------------- -->
         <main class="main__gridContacto">
             <div class="main__tituloContacto main__titulo" data-aos="fade-up">
