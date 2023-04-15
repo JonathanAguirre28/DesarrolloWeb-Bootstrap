@@ -10719,5 +10719,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (max-width: 599px) {
+  .rowmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

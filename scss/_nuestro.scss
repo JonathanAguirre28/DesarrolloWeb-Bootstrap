@@ -1,0 +1,11 @@
+@mixin flexbox($direction, $align) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+  }
+  
+@media (max-width: 599px) {
+    .rowmobile{
+        @include flexbox(column, center);
+    }
+}
