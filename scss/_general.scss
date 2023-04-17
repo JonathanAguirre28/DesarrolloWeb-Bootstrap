@@ -4,10 +4,15 @@
     align-items: $align;
   }
   
-@media (max-width: 599px) {
+@media (max-width: 1100px) {
     .rowmobile{
         @include flexbox(column, center);
     }
 }
+
+.card{
+    background-color: $gray-400;
+   }
+
 
     
