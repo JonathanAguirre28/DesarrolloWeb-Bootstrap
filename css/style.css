@@ -672,7 +672,7 @@ progress {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
@@ -10727,9 +10727,6 @@ textarea.form-control-lg {
 }
 .card {
   background-color: #ced4da;
-}
-.card .parrafo {
-  font-size: var(--bs-font-monospace);
 }
 
 /*# sourceMappingURL=style.css.map */
