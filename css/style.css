@@ -10749,6 +10749,9 @@ textarea.form-control-lg {
   .main__texto {
     padding: 20px;
   }
+  .logoConteiner {
+    width: fit-content;
+  }
   .fooMobi {
     display: flex;
     flex-direction: row;
@@ -10759,6 +10762,9 @@ textarea.form-control-lg {
   .footer__imgWsp {
     width: 50px;
     height: auto;
+  }
+  .header__nav {
+    margin: 10px;
   }
 }
 .card {
