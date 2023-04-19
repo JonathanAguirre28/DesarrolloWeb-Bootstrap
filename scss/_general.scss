@@ -59,22 +59,23 @@
         height: auto;
     }
 
-    .header__div {
+    .header__container {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        
+        flex-direction: row;
+        justify-content: space-between;
 
-        .header__modificado {
-            display: flex;
-            flex-wrap: nowrap;
-            align-items: center;
-
-            .header__logo {
-                width: 60px;
-            }
+        .header__logo {
+            width: 60px;
         }
     }
+
+    .header__modificado {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+
+    }
+
 }
 
 .card {

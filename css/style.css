@@ -10763,18 +10763,18 @@ textarea.form-control-lg {
     width: 50px;
     height: auto;
   }
-  .header__div {
+  .header__container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  .header__div .header__modificado {
+  .header__container .header__logo {
+    width: 60px;
+  }
+  .header__modificado {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-  }
-  .header__div .header__modificado .header__logo {
-    width: 60px;
   }
 }
 .card {
