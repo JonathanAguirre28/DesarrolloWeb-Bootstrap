@@ -10727,10 +10727,18 @@ textarea.form-control-lg {
     flex-direction: column;
     align-items: center;
   }
+  .header__modificado {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 @media (min-width: 1200px) {
   .main__parrafodes {
     display: none;
+  }
+  .header__modificado {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 @media (max-width: 2000px) {
@@ -10743,6 +10751,14 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 768px) {
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__container .header__logo {
+    width: 60px;
+  }
   .main__bootonmob {
     font-size: 10px;
   }
@@ -10762,19 +10778,6 @@ textarea.form-control-lg {
   .footer__imgWsp {
     width: 50px;
     height: auto;
-  }
-  .header__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .header__container .header__logo {
-    width: 60px;
-  }
-  .header__modificado {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
   }
 }
 .card {
