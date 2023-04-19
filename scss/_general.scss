@@ -59,11 +59,23 @@
         height: auto;
     }
 
-    .header__nav{
-        margin: 10px;
+    .header__div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        .header__modificado {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            .header__logo {
+                width: 60px;
+            }
+        }
     }
 }
-
 
 .card {
     background-color: $gray-400;
