@@ -10779,6 +10779,10 @@ textarea.form-control-lg {
     width: 50px;
     height: auto;
   }
+  .main__form {
+    width: 90%;
+    margin: 20px;
+  }
 }
 .card {
   background-color: #ced4da;
